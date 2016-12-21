@@ -7,6 +7,8 @@ import { MaterializeModule } from 'angular2-materialize';
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { eventsRouting } from "./events/events.routing";
+import { EventsModule } from "./events/events.module";
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { routing } from './app.routing';
@@ -27,9 +29,12 @@ import { UsersModule } from "./users/users.module";
     MaterializeModule,
     UsersModule,
     usersRouting,
+    EventsModule,
+    eventsRouting,
     routing
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

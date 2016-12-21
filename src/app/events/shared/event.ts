@@ -1,0 +1,33 @@
+export class Event {
+    algo: number;
+    catch_up: number;
+    category: string;
+    chain: string;
+    cpu_limit: number;
+    cpu_sustain: number;
+    created: number;
+    detached: number;
+    enabled: number;
+    id: string;
+    max_children: number;
+    memory_limit: number;
+    memory_sustain: number;
+    modified: number;
+    multiplex: number;
+    notes: string;
+    notify_fail: string;
+    notify_success: string;
+    params: string;
+    plugin: string;
+    retries: number;
+    retry_delay: number;
+    stagger: number;
+    target: string;
+    timeout: number;
+    timezone: string;
+    timing: any;
+    tmphours: string;
+    title: string;
+    username: string;
+    web_hook: string;
+}
